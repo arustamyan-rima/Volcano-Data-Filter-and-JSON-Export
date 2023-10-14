@@ -24,20 +24,21 @@ For example, the JSON entries are represented as an array of objects:
         "country": "United States",
         "region": "Japan, Taiwan, Marianas"
     },
-    {..},
+    {...},
 ]
+```
 
-Project Structure
+## Project Structure
 
-The main script is named volcanos.py.
-The CSV file to be processed is named active_volcanos.csv.
-The script includes functions for reading the file, filtering the data, and exporting to JSON.
+The main script is named volcanos.py.  
+The CSV file to be processed is named active_volcanos.csv.  
+The script includes functions for reading the file, filtering the data, and exporting to JSON.  
 
-Usage
+## Usage
 
-Ensure you have the necessary libraries installed to run the code. You can run the script using Python.
+Ensure you have the necessary libraries installed to run the code. You can run the script using Python.  
 The filtered and processed data will be saved in a JSON file named 'volcanos_italy.json'.
-
-Functions
-read_file: Reads a CSV file and filters the entries based on a specific country.
-main: Main function that orchestrates the data filtering and JSON export.
+  
+## Functions  
+read_file: Reads a CSV file and filters the entries based on a specific country.  
+main: Main function that orchestrates the data filtering and JSON export
